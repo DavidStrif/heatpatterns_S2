@@ -1,0 +1,9 @@
+paths:
+  data_dir: "data"
+  output_dir: "output"
+  aoi_file: "aoi.geojson"
+  sentinel_file: "S2A_MSIL2A_20240709T102031_N0510_R065_T32UNV_20240709T142949.zip"
+
+thresholds:
+  ndbi_heat_min: 0.15 # Beispiel-Grenzwert
+  ndvi_heat_max: 0.20 # Werte darunter gelten als "nicht grün" und können als Hitzecluster betrachtet werden
